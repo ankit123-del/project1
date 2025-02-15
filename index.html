@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+           
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hello, It's Ankit Sharma</h3>
+            <h1>Web Designer</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>I'm a web designer with over 3 years of experience in website design, frontend development, and more...</p>
+            <div class="home-sci">
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-img">
+            <img src="design.png" alt="About Image">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Full Stack Developer</h4>
+            <p>Hi, I’m Ankit Sharma, a passionate and driven Computer Science student currently pursuing my B.Tech at Poornima Institute of Engineering and Technology. I have a strong foundation in programming languages like Java, Python, and web technologies such as HTML, CSS, and JavaScript. I enjoy building innovative projects that solve real-world problems and enhance user experiences.
+
+                During my academic journey, I’ve had the opportunity to work on exciting projects like developing a Restaurant Website and creating a Python-based Voice Assistant. These experiences have honed my skills in web development, problem-solving, and automation. I’ve also completed internships at Yatharth Educational Services Pvt. Ltd. and Mission Minded Foundation, where I gained hands-on experience in Python programming and software development.</p>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h1 class="sub-title">My <span>Skills</span></h1>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <i class='bx bxl-html5'></i>
+                    <h3>HTML</h3>
+                    <div class="progress-bar"><div class="progress" style="width: 95%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <i class='bx bxl-css3'></i>
+                    <h3>CSS</h3>
+                    <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <i class='bx bxl-javascript'></i>
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h1 class="sub-title">My <span>Projects</span></h1>
+            <div class="projects-list">
+                <div class="project-item">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project One</h3>
+                    <p>Restaurant Website(html,css)</p>
+                    <p>Developed a fully responsive restaurant website with the goal of providing an engaging user experience. The website features a visually appealing design, smooth navigation, and interactive elements to enhance user interaction.</p><br>
+                </div>
+                <div class="project-item">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project Two</h3>
+                    <p>Voice Assistant(python)</p>
+                    <p>Built a Python-based voice assistant capable of handling tasks such as responding to user queries, fetching real-time data, and automating simple operations. This project demonstrates my ability to work with Python and integrate APIs for real-time data processing.</p><br>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h1 class="sub-title">Contact <span>Me</span></h1>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn-box">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>Email:2022pietcsankit020@poornima.org</p>
+                <p>Phone: +918769882582</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
